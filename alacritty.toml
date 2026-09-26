@@ -1,0 +1,44 @@
+[general]
+import = ["./inferno.toml"]
+live_config_reload = true
+
+[window]
+dynamic_padding = true
+dynamic_title = true
+title = "N'apıyon?"
+decorations = "Full"
+decorations_theme_variant = "Dark"
+blur = true
+opacity = 0.9
+level = "Normal"
+startup_mode = "Windowed"
+# level = "Normal"
+
+[scrolling]
+history = 1000
+#multipler = 4
+
+[font]
+normal = { family = "Hurmit Nerd Font", style = "normal" }
+size = 14.5
+builtin_box_drawing = true
+offset = { x = 2, y = 2 }
+
+[bell]
+animation = "EaseOutExpo"
+color = "#ffffff"
+duration = 256
+
+[selection]
+save_to_clipboard = false
+
+[cursor]
+#shape = "Beam"
+#blinking = "Always"
+blink_interval = 512
+unfocused_hollow = false
+thickness = 0.35
+
+[mouse]
+hide_when_typing = true
+

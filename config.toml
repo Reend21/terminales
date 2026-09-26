@@ -1,0 +1,27 @@
+# Rio Configurationn by Reend
+# github: Reend21
+
+theme = "Batman"
+
+[font]
+family = "Hurmit Nerd Font"
+size = 14
+
+[window]
+width = 1024
+height = 768
+decorations = "No"
+opacity = 0.9
+blur = true
+
+[cursor]
+shape = "underline"
+blinking = true
+
+[colors]
+cursor = "#f0d90e"
+
+[bindings]
+keys = [
+  { key = "q", mods = "ctrl", action = "CloseCurrentTab" }
+]

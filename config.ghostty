@@ -1,0 +1,30 @@
+# Ghostty Configuration by Reend
+# github Reend21
+
+theme = Batman
+language = tr
+
+# fonts
+font-family = "Hurmit Nerd Font"
+font-size = 14
+
+# shortcuts
+keybind = ctrl+q=close_surface
+
+# windows
+background-opacity = 0.9
+background-blur-radius = 3
+window-decoration = true
+window-width = 1024
+window-height = 768
+scrollbar = never
+clipboard-read = allow
+clipboard-write = allow
+confirm-close-surface = true
+
+# cursors
+cursor-style = underline
+cursor-color = f0d90e
+cursor-text = f0d90e
+cursor-style-blink = true
+desktop-notifications = true
